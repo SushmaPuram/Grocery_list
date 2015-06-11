@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Shopping List</title>
+	<link type="text/css" rel="stylesheet" href="css/style.css" /> 
+	<link href='http://fonts.googleapis.com/css?family=Roboto:400,500,300' rel='stylesheet' type='text/css'>
+	<link href="css/font-awesome.min.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+	<script src="js/app.js"></script>
+</head>
+<body>
+
+	<section class="mainheader">
+		<div class="content">
+			<img class="logo" src="images/logo.png" alt="Shopping List" width="70px" style="padding:0px 15px; height:70px">
+			<h1 class="heading-text">SHOPPING LIST</h1>
+		</div>
+	</section>
+	<section class="navigation">
+		<div class="content">
+			<ul class="icons">
+				<li><span class="circle1"> It's   Shopping Time!</span></li>
+				<li><span class="circle2">Create List</span></li>
+				<li><span class="circle3">Click done if the item's purchased </span></li>
+			</ul>
+		</div>
+	</section>
+	<section class="maincontent">
+		<div class="content">
+		  <form>
+			<input type="text" id="item"></input>
+			<a id="add-item" href="#"><strong>+</strong>Add</a>
+			<ul id="items"></ul>				
+		  </form>
+		</div>
+	</section>	
+</body>
+</html>
